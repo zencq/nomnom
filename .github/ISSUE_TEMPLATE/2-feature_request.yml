@@ -1,0 +1,39 @@
+name: Feature Request
+description: A request, idea, or new functionality
+title: "[Feature]: "
+labels: ["enhancement"]
+type: feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: "Confirm the following statements"
+      options:
+        - label: "I have searched the issue tracker and found no duplicate."
+          required: true
+        # - label: "I have searched the documentation and found nothing matching this issue."
+        #   required: true
+        - label: "I have read and agree to follow the code of conduct."
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please give us a detailed description of the feature that you envision. Focus on _what_ this feature does, over the _why_ you want this feature. What would be the end-result when implemented? Feel free to add any diagrams, (mocked up) screenshots, or other materials that support your story.
+      placeholder: A wild feature appeared!
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Intended Use-Case
+      description: Provide a detailed example of where your proposal would be used and for what purpose. Focus on _why_ you want this feature instead of _what_ the feature does.
+    validations:
+      required: true

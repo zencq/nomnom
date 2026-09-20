@@ -1,4 +1,6 @@
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository#about-funding-files
 github: "cengelha"
 ko_fi: "cengelha"
 patreon: "cengelha"
-custom: ["https://www.buymeacoffee.com/cengelha", "https://www.paypal.me/cengelha"]
+buy_me_a_coffee: "cengelha"
+custom: ["https://www.paypal.me/cengelha"]
