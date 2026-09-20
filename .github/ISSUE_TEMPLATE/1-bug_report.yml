@@ -1,0 +1,87 @@
+name: Bug Report
+description: An unexpected problem or behavior
+title: "[Bug]: "
+labels: ["bug"]
+type: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: "Confirm the following statements"
+      options:
+        - label: "I have checked that this issue is relevant to the latest release."
+          required: true
+        - label: "I have searched the issue tracker and found no duplicate."
+          required: true
+        # - label: "I have searched the documentation and found nothing matching this issue."
+        #   required: true
+        - label: "This issue contains only one bug report."
+          required: true
+        - label: "I have read and agree to follow the code of conduct."
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Give us a clear and concise description of the error. Also, include what you expected to happen and what did actually happen. If applicable, add screenshots and/or videos to help explain your problem.
+      placeholder: A bug happened!
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: How to reproduce?
+      description: List all the steps to reproduce the behavior that you have observed.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround-available
+    attributes:
+      label: Did you find any workarounds?
+      description: Did you find any workaround for this issue? This can unblock other people while waiting for this issue to be resolved or even give us a hint on how to fix this.
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: The version of the software you are currently running.
+      placeholder: e.g., 6.40.1
+    validations:
+      required: true
+
+  # - type: dropdown
+  #   id: platform
+  #   attributes:
+  #     label: What platforms are you seeing the problem on?
+  #     multiple: true
+  #     options:
+  #       - Android
+  #       - iOS
+  #       - Linux
+  #       - macOS
+  #       - WebAssembly
+  #       - Windows
+  #   validations:
+  #     required: true
+
+  - type: upload
+    id: upload
+    attributes:
+      label: Upload additional data
+      description: If applicable, logs, crash reports, and save files can be uploaded here. Please make sure to not upload any sensitive data. If you need to share something privately, get in touch with us through our Discord server.
+    validations:
+      required: false
