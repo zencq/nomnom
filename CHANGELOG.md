@@ -13,6 +13,12 @@ All notable changes to this project will be documented in this file. It uses the
 ### Fixed
 ### Security
 
+## 7.00.1 (2026-09-20)
+[![Downloads Version 7.00.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fzencq.github.io%2Fnomnom%2Fbadges%2Fdownloads%2F7.00.1.json)](https://github.com/zencq/nomnom/releases/tag/7.00.1)
+
+### Fixed
+* Crash when starting NomNom ([#330](https://github.com/zencq/nomnom/issues/330))
+
 ## 7.00.0 (2026-09-20)
 [![Downloads Version 7.00.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fzencq.github.io%2Fnomnom%2Fbadges%2Fdownloads%2F7.00.0.json)](https://github.com/zencq/nomnom/releases/tag/7.00.0)
 
