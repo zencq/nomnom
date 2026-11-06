@@ -2,8 +2,8 @@
 
 ![Maintained](https://img.shields.io/maintenance/yes/2026)
 ![Platform](https://img.shields.io/badge/platform-windows-lightgrey)
-[![GitHub Release](https://img.shields.io/github/v/release/zencq/NomNom?logo=github)](https://github.com/zencq/nomnom/releases/latest)
-![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fzencq.github.io%2FNomNom%2Fbadges%2Fdownloads%2Ftotal.json&cacheSeconds=86400)
+[![GitHub Release](https://img.shields.io/github/v/release/zencq/nomnom?logo=github)](https://github.com/zencq/nomnom/releases/latest)
+![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fzencq.github.io%2Fnomnom%2Fbadges%2Fdownloads%2Ftotal.json&cacheSeconds=86400)
 
 [![Discord Server](https://img.shields.io/discord/762409407488720918?color=5865F2&label=discord)](https://discord.gg/nomnom-762409407488720918)
 [![Supported by the No Man's Sky Community Developers & Designers](https://raw.githubusercontent.com/NMSCD/About/master/badge/purple.svg)](https://nmscd.com/)
@@ -59,12 +59,12 @@ below. A detailed list can be found in the [FEATURES](FEATURES.md) file.
 * __Catalogue__ Explore all the items!
     * Just as in game, look up items and get additional information about it. -->
 
-[<img alt="Manager" src=".github/images/manager.png" width="49.68%"/>](https://raw.githubusercontent.com/cengelha/NomNom/4.00.0.31-beta.1/.github/images/manager.png) [<img alt="Starship" src=".github/images/editor_starship.png" width="49.68%"/>](https://raw.githubusercontent.com/cengelha/NomNom/4.00.0.31-beta.1/.github/images/editor_starship.png)
-[<img alt="Manage Fleet" src=".github/images/editor_frigate.png" width="49.68%"/>](https://raw.githubusercontent.com/cengelha/NomNom/4.00.0.31-beta.1/.github/images/editor_frigate.png) [<img alt="Base" src=".github/images/editor_base.png" width="49.68%"/>](https://raw.githubusercontent.com/cengelha/NomNom/4.00.0.31-beta.1/.github/images/editor_base.png)
+[<img alt="Manager" src=".github/images/manager.png" width="49.68%"/>](https://raw.githubusercontent.com/cengelha/nomnom/4.00.0.31-beta.1/.github/images/manager.png) [<img alt="Starship" src=".github/images/editor_starship.png" width="49.68%"/>](https://raw.githubusercontent.com/cengelha/nomnom/4.00.0.31-beta.1/.github/images/editor_starship.png)
+[<img alt="Manage Fleet" src=".github/images/editor_frigate.png" width="49.68%"/>](https://raw.githubusercontent.com/cengelha/nomnom/4.00.0.31-beta.1/.github/images/editor_frigate.png) [<img alt="Base" src=".github/images/editor_base.png" width="49.68%"/>](https://raw.githubusercontent.com/cengelha/nomnom/4.00.0.31-beta.1/.github/images/editor_base.png)
 
 These images are from version
 [4.00.0.31-beta.1](CHANGELOG.md#400031-beta1-2022-10-31).
-More and maybe newer can be found [here](https://github.com/cengelha/NomNom/tree/master/.github/images).
+More and maybe newer can be found [here](https://github.com/cengelha/nomnom/tree/master/.github/images).
 
 ## Getting Started
 
@@ -102,7 +102,7 @@ this one manually, it has the same effect: Getting rid of the Windows security
 warnings.
 
 You can install it as follows:
-* Download the `zencq.cer` file from [here](https://github.com/zencq/NomNom/blob/master/zencq.cer)
+* Download the `zencq.cer` file from [here](https://github.com/zencq/nomnom/blob/master/zencq.cer)
 * Open the downloaded file
 * Click *Install Certificate*
 * Follow the wizard to install it. Use the suggested config below or adjust as you
@@ -118,7 +118,7 @@ using it with _Linux_ is to go to [flathub.org](https://flathub.org/), install [
 
 ### Download
 
-* [GitHub](https://github.com/zencq/NomNom/releases) (`Portable.zip` or `Setup.exe`)
+* [GitHub](https://github.com/zencq/nomnom/releases) (`Portable.zip` or `Setup.exe`)
 * [Nexus Mods](https://www.nexusmods.com/nomanssky/mods/1566?tab=files)
 
 ### Instructions

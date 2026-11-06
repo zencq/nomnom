@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-    - name: Ask on Discord
-      url: https://discord.gg/nomnom-762409407488720918
-      about: If you have a general question, get in touch with us there.
-    - name: Start a discussion
-      url: https://github.com/zencq/nomnom/discussions
-      about: If you do not want to use Discord, you can also start a discussion here on GitHub.
