@@ -1,0 +1,35 @@
+# This configuration is used by both Qlty CLI and Qlty Cloud.
+#
+# For a guide to configuration, visit https://qlty.sh/d/config
+# Or for a full reference, visit https://qlty.sh/d/qlty-toml
+config_version = "0"
+
+test_patterns = [
+  "tests/**",
+]
+
+
+[smells]
+mode = "comment"
+
+
+[[source]]
+name = "default"
+default = true
+
+
+[[plugin]]
+name = "actionlint"
+
+[[plugin]]
+name = "editorconfig-checker"
+mode = "comment"
+
+[[plugin]]
+name = "markdownlint"
+
+[[plugin]]
+name = "trufflehog"
+
+[[plugin]]
+name = "zizmor"
