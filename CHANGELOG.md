@@ -7,12 +7,25 @@ All notable changes to this project will be documented in this file. It uses the
 
 ### Known Issues
 ### Added
-* French translation ([#100](https://github.com/zencq/nomnom/issues/100))
 ### Changed
 ### Deprecated
 ### Removed
 ### Fixed
 ### Security
+
+## 7.10.1 (2026-11-27)
+[![Downloads Version 7.10.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fzencq.github.io%2Fnomnom%2Fbadges%2Fdownloads%2F7.10.1.json)](https://github.com/zencq/nomnom/releases/tag/7.10.1)
+
+### Added
+* Option for French translation ([#100](https://github.com/zencq/nomnom/issues/100))
+* Missing ship and weapon types
+
+### Changed
+* Updated database to game version 7.15 including the 2026 Holiday Expeditions
+
+### Fixed
+* Glitching JSON tree view when navigating and scrolling through it ([#342](https://github.com/zencq/nomnom/issues/342))
+* Crash when using the "Make Station Claimable" button (via Discord)
 
 ## 7.10.0 (2026-11-06)
 [![Downloads Version 7.10.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fzencq.github.io%2Fnomnom%2Fbadges%2Fdownloads%2F7.10.0.json)](https://github.com/zencq/nomnom/releases/tag/7.10.0)
